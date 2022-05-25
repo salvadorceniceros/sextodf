@@ -1,0 +1,33 @@
+// Comentario en scss
+
+// import
+
+@import "utilities/variables";
+
+// Operaciones en matemáticas en SASS
+
+
+/* Comentario en CSS para que se vea en el main */
+
+// Nesting
+
+header{
+    background-color: $color-secundario;
+    padding: $medida-principal*23;
+    margin: $medida-secundaria;
+    h1{
+        background-color: $color-principal;
+        text-transform: uppercase;
+        color: $color-secundario;
+        font-size: 18px;
+    }
+    nav{
+        background-color: $color-complementario;
+        ul{
+            li{
+                list-style: none;
+            }
+        }
+    }
+}
+
