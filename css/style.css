@@ -1,0 +1,24 @@
+/* Reiniciar los valores del navegador */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif; }
+
+html body {
+  padding-top: 75px;
+  background-color: #f7f7f7; }
+  html body h1, html body h2 {
+    font-size: 1.5rem;
+    text-align: center; }
+
+.container-bootstrap .bg-color {
+  background-color: #b01e37; }
+
+.container-bootstrap .btn-rojo {
+  color: #fff;
+  background-color: #b01e37;
+  border-color: #b01e37; }
+
+.container-bootstrap .btn-br {
+  border-radius: 0px; }

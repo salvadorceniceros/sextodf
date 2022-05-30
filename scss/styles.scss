@@ -1,33 +1,29 @@
-// Comentario en scss
-
-// import
-
-@import "utilities/variables";
-
-// Operaciones en matemáticas en SASS
-
-
-/* Comentario en CSS para que se vea en el main */
-
-// Nesting
-
-header{
-    background-color: $color-secundario;
-    padding: $medida-principal*23;
-    margin: $medida-secundaria;
-    h1{
-        background-color: $color-principal;
-        text-transform: uppercase;
-        color: $color-secundario;
-        font-size: 18px;
-    }
-    nav{
-        background-color: $color-complementario;
-        ul{
-            li{
-                list-style: none;
-            }
-        }
-    }
+/* Reiniciar los valores del navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
-
+html body{
+   padding-top: 75px;
+   background-color: #f7f7f7;
+   h1, h2{
+      font-size: 1.5rem;
+      text-align: center; 
+   }
+}
+.container-bootstrap{
+    .bg-color{
+        background-color: #b01e37;
+    }
+    .btn-rojo{
+        color: #fff;
+        background-color:#b01e37;
+        border-color: #b01e37;
+    }
+    .btn-br{
+        border-radius: 0px
+    }
+        
+}
