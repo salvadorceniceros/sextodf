@@ -8,17 +8,99 @@
 html body {
   padding-top: 75px;
   background-color: #f7f7f7; }
-  html body h1, html body h2 {
-    font-size: 1.5rem;
-    text-align: center; }
 
-.container-bootstrap .bg-color {
-  background-color: #b01e37; }
+html h1 {
+  font-size: 1.6rem;
+  text-align: center;
+  font-weight: bolder; }
 
-.container-bootstrap .btn-rojo {
-  color: #fff;
-  background-color: #b01e37;
-  border-color: #b01e37; }
+html h2 {
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: center; }
 
-.container-bootstrap .btn-br {
+html p {
+  text-align: justify;
+  margin: 0 10px;
+  padding-top: 10px; }
+
+header .bg-rojo {
+  background-color: #2d0a79; }
+
+header .btn-rojo {
+  color: #ffff;
+  background-color: #2d0a79;
+  border-color: #2d0a79; }
+
+header .btn-br {
   border-radius: 0px; }
+
+header .navfondo {
+  background-color: #f7f7f7; }
+
+header .letra {
+  color: black; }
+
+header main p {
+  text-align: justify;
+  margin: 0 10px;
+  padding-top: 10px; }
+
+.form-registro {
+  width: 400px;
+  background-color: #24303c;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  color: #ffff;
+  box-shadow: 7px 13px 37px #000; }
+  .form-registro h4 {
+    font-size: 22px;
+    margin-bottom: 20px; }
+  .form-registro p {
+    height: 40px;
+    color: #ffff;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px; }
+  .form-registro a {
+    color: #ffff;
+    text-decoration: none; }
+    .form-registro a:hover {
+      color: #ffff;
+      text-decoration: underline; }
+  .form-registro .button {
+    width: auto;
+    background-color: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: #ffff;
+    margin: 16px 0;
+    font-size: 16px; }
+  .form-registro .control {
+    width: 100%;
+    background-color: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-size: 18px;
+    color: #ffff; }
+
+footer {
+  margin-top: 15px;
+  background-color: #F0F4F7;
+  grid-area: footer; }
+  footer h3 {
+    font-size: 1rem;
+    text-align: center; }
+  footer h4 {
+    font-size: 0.8rem;
+    text-align: center; }
+  footer .degradado {
+    background: #0097b5;
+    background: linear-gradient(90deg, #0097b5 0%, #095f79 52%, #0097b5 100%);
+    color: #ffff;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem; }

@@ -1,29 +1,128 @@
 /* Reiniciar los valores del navegador */
+@import "utilities/variables";
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
 }
-html body{
-   padding-top: 75px;
-   background-color: #f7f7f7;
-   h1, h2{
-      font-size: 1.5rem;
-      text-align: center; 
-   }
+html {
+	body {
+		padding-top: 75px;
+		background-color: #f7f7f7;
+	}
+    h1 {
+        font-size: 1.6rem;
+        text-align: center;
+        font-weight: bolder;
+    }
+    h2 {
+        font-weight: bold;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    p {
+        text-align: justify;
+        margin: 0 10px;
+        padding-top: 10px;
+    }
 }
-.container-bootstrap{
-    .bg-color{
-        background-color: #b01e37;
+// Header y main 
+header{
+    .bg-rojo {
+        background-color: $color-principal;
     }
-    .btn-rojo{
-        color: #fff;
-        background-color:#b01e37;
-        border-color: #b01e37;
+    .btn-rojo {
+        color: $color-secundario;
+        background-color: $color-principal;
+        border-color: $color-principal;
     }
-    .btn-br{
-        border-radius: 0px
+    .btn-br {
+        border-radius: 0px;
     }
-        
+    .navfondo {
+        background-color: #f7f7f7;
+    }
+    .letra {
+        color: black;
+    }
+    
+    main {
+        p {
+            text-align: justify;
+            margin: 0 10px;
+            padding-top: 10px;
+        }
+    }
+}
+
+// Aplicando los estilos al formulario
+.form-registro {
+	width: 400px;
+	background-color: #24303c;
+	padding: 30px;
+	margin: auto;
+	margin-top: 100px;
+	border-radius: 4px;
+	color: $color-secundario;
+	box-shadow: 7px 13px 37px #000;
+	h4 {
+		font-size: 22px;
+		margin-bottom: 20px;
+	}
+	p {
+		height: 40px;
+		color: $color-secundario;
+		text-align: center;
+		font-size: 18px;
+		line-height: 40px;
+	}
+	a {
+		color: $color-secundario;
+		text-decoration: none;
+		&:hover {
+			color: $color-secundario;
+			text-decoration: underline;
+		}
+	}
+	.button {
+		width: auto;
+		background-color: #1f53c5;
+		border: none;
+		padding: 12px;
+		color: $color-secundario;
+		margin: 16px 0;
+		font-size: 16px;
+	}
+    .control{
+        width: 100%;
+        background-color: #24303c;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 16px;
+        border: 1px solid #1f53c5;
+        font-size: 18px;
+        color: $color-secundario;
+    }
+}
+
+// Mi footer con Degradado
+footer {
+    margin-top: 15px;
+    background-color: #F0F4F7;
+    grid-area: footer;
+	h3 {
+		font-size: 1rem;
+		text-align: center;
+	}
+    h4 {
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    .degradado {
+        background: rgb(0,151,181);
+        background: linear-gradient(90deg, rgba(0,151,181,1) 0%, rgba(9,95,121,1) 52%, rgba(0,151,181,1) 100%);
+        color: $color-secundario;
+        border-bottom-left-radius: 0.5rem;
+        border-bottom-right-radius: 0.5rem;}
 }
